@@ -1,0 +1,76 @@
+1645168712060:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/samy/.local/share/JetBrains/IdeaIC2021.3/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1645171297992:run
+1645171451067:exit
+1645176721753:run
+1645176732952:exit
+1645206746891:run
+1645207627499:exi
+1645207632096:exit
+1645207744229:run ValuesVariablesTypes
+1645207798593:exit
+1645266276108:~run
+1645266560141:run
+1645266973899:run-main playground.Playground
+1645267006822:exit
+1645267018858:run
+1645267037474:run-main playground.Playground
+1645267079103:run-main "playground.Playground"
+1645267138611:runMain playground.Playground
+1645267153599:~runMain playground.Playground
+1645267263508:~runMain lectures.ValuesVariablesTypes
+1645267303409:~runMain lectures.part1basics.ValuesVariablesTypes
+1645268094893:exit
+1645268140128:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/samy/.local/share/JetBrains/IdeaIC2021.3/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1645284577209:~runMain lectures.part1basics.Expressions
+1645286352112:exit
+1645300692658:~runMain lectures.part1basics.Functions
+1645303116925:exit
+1645388414225:~runMain lectures.part1basics.Recursion
+1645389538749:exit
+1645431878368:scala -version
+1645431904571:~runMain lectures.part1basics.Recursion
+1645436280002:exit
+1645442120751:~runMain lectures.part1basics.Recursion
+1645445639143:~runMain lectures.part1basics.Functions
+1645445650698:~runMain lectures.part1basics.Recursion
+1645450285072:~runMain lectures.part1basics.Functions
+1645450373557:~runMain lectures.part1basics.Recursion
+1645469089713:OA
+1645469103433:~runMain lectures.part1basics.CBNvdCBV
+1645469219463:exit
+1645469232128:~runMain lectures.part1basics.CBNvdCBV
+1645469257488:~runMain lectures.part1basics.CBNvsCBV
+1645521221371:~runMain lectures.part1basics.DefaultArgs
+1645521235757:~runMain lectures.part1basics.DefaultsArgs
+1645521692078:~runMain lectures.part1basics.StringOps
+1645549424927:exit
+1645558507593:~runMain lectures.part2oop.OObasics
+1645559745568:exit
+1645646800796:~runMain lectures.part2oop.OObasics
+1645647281624:exit
+1645690038418:~runMain lectures.part2oop.OObasics
+1645705625403:~runMain lectures.part2oop.MethodNotations
+1645711936592:exit
+1645778414216:~runMain lectures.part2oop.MethodNotations
+1645897530948:~runMain lectures.part2oop.Objects
+1646251890480:~runMain lectures.part2oop.InheritenceAndTraits
+1646420943416:~runMain lectures.part2oop.AbstractDataTypes
+1646421681791:exit
+1646484610688:~runMain lectures.part2oop.MyList
+1646484646578:~runMain lectures.exercices.MyList
+1646484663253:~runMain exercices.MyList
+1646485039183:~runMain playground.Playground
+1646485059572:~runMain exercices.MyList
+1646485123856:~runMain exercices.ListTest
+1646573266069:~runMain exercices.AnonymousClasses
+1646573286365:~runMain lectures.part2oop.AnonymousClasses
+1646573976210:exit
+1646664475181:~runMain exercices.ListTest
+1646664508389:exit
+1646682857535:~runMain exercices.ListTest
+1646733313318:exit
+1646733335293:~runMain lectures.part2oop.CaseClasses
+1646742067806:~runMain lectures.part2oop.Enums
+1646750851509:~runMain lectures.part2oop.Exceptions
+1646757579155:~runMain lectures.part2oop.PackagingAndImports
+1646816080035:~runMain lectures.part3fp.WhatsAfunction
