@@ -4528,3 +4528,25 @@ INFO: Unsupported notification method: $/setTrace
 2022.03.10 15:47:28 WARN  no build target for: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/WhatsAfunction.scala
 2022.03.10 15:56:48 WARN  no build target for: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part2oop/package.scala
 2022.03.10 15:56:58 WARN  no build target for: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part2oop/Objects.scala
+2022.03.10 18:22:33 INFO  shutting down Metals
+2022.03.10 21:36:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.10 21:36:30 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.10 21:36:30 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.10 21:36:30 INFO  Parse release: 11.0.14
+2022.03.10 21:36:32 INFO  time: initialize in 1.73s
+2022.03.10 21:36:32 INFO  Attempting to connect to the build server...
+2022.03.10 21:36:32 INFO  skipping build import with status 'Installed'
+2022.03.10 21:36:37 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part2oop/Objects.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.10 21:36:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.10 21:36:37 INFO  Attempting to connect to the build server...
+2022.03.10 21:36:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.10 21:36:37 INFO  time: Connected to build server in 5.31s
+2022.03.10 21:36:38 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.10 21:36:38 INFO  time: Imported build in 0.15s
+2022.03.10 21:36:39 INFO  time: code lens generation in 4.28s
+2022.03.10 21:36:40 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part2oop/Objects.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.10 21:36:40 INFO  time: code lens generation in 5.57s
+2022.03.10 21:36:40 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.10 21:36:40 INFO  time: indexed workspace in 2.56s
+2022.03.10 21:36:41 INFO  compiling root (1 scala source)
+2022.03.10 21:36:45 INFO  time: compiled root in 3.47s
