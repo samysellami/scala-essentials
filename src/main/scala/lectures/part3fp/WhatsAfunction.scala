@@ -21,6 +21,34 @@ object WhatsAfunction extends App {
 
     // function types Funtion2[A, B, R] === (A, B) => R
     // ALL SCALA FUNCTIONS ARE OBJECTS = INSTANCES FROM CLASSES DERIVED FROM FUNCTION1,2, ...
+
+    /*
+        exercises
+        1. a function that take 2 strings and  concatenate them
+        2. transform MyPredicate and MyTranformer into function types
+        3. define a function which takes an int and returns another function which takes an int and return an int
+            - whats the type of this function
+            - how to do it
+     */
+
+    // 1.
+    def concatenator: (String, String) => (String) =
+        new Function2[String, String, String] {
+            override def apply(a: String, b: String): String = a + b
+        }
+    println(concatenator("Hello", "Scala"))
+
+    // 3. Function1[Int, Function1[Int, Int]]
+    val superAdder: Function1[Int, Function1[Int, Int]] =
+        new Function1[Int, Function1[Int, Int]] {
+            override def apply(x: Int): Function1[Int, Int] =
+                new Function1[Int, Int] {
+                    override def apply(y: Int): Int = x + y
+                }
+        }
+    val adder3 = superAdder(3)
+    println(adder3(4))
+    println(superAdder(3)(4)) // curried function
 }
 
 trait MyFunction[A, B] {

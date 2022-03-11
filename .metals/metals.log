@@ -4550,3 +4550,362 @@ INFO: Unsupported notification method: $/setTrace
 2022.03.10 21:36:40 INFO  time: indexed workspace in 2.56s
 2022.03.10 21:36:41 INFO  compiling root (1 scala source)
 2022.03.10 21:36:45 INFO  time: compiled root in 3.47s
+Mar 10, 2022 9:41:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 10, 2022 9:41:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.03.10 21:42:21 INFO  compiling root (1 scala source)
+2022.03.10 21:42:21 INFO  time: compiled root in 0.39s
+2022.03.10 21:46:01 INFO  compiling root (1 scala source)
+2022.03.10 21:46:01 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/WhatsAfunction.scala
+2022.03.10 21:46:01 INFO  time: compiled root in 0.38s
+2022.03.10 21:46:29 INFO  compiling root (1 scala source)
+2022.03.10 21:46:29 INFO  time: compiled root in 0.28s
+2022.03.10 22:01:57 INFO  compiling root (1 scala source)
+2022.03.10 22:01:57 INFO  time: compiled root in 0.81s
+2022.03.10 23:15:46 INFO  compiling root (1 scala source)
+2022.03.10 23:15:46 INFO  time: compiled root in 0.91s
+2022.03.10 23:15:47 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:07 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:07 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:08 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:15 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:21 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:22 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:41 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:42 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:42 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:43 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:42 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:47 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:48 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:49 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:49 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:58 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:16:58 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:06 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:14 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:17 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:17 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:19 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:22 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:31 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:47 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:17:47 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:04 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:11 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:12 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:12 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:25 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:25 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:34 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:36 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:37 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:38 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:38 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:39 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:40 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:41 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:41 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:41 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:41 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:48 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:50 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:50 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:50 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:18:52 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:02 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:02 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:02 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:03 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:03 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:03 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:05 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:06 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:08 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:09 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:09 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:10 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:11 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:12 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:24 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:25 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:26 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:27 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:27 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:30 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:29 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:30 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:31 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:34 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:33 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:35 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:36 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:36 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:36 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:40 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:40 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:42 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:44 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:46 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.10 23:19:48 INFO  compiling root (1 scala source)
+2022.03.10 23:19:48 INFO  time: compiled root in 0.33s
+2022.03.10 23:24:18 INFO  shutting down Metals
+2022.03.10 23:24:18 INFO  Shut down connection with build server.
+2022.03.10 23:24:18 INFO  Shut down connection with build server.
+2022.03.11 09:09:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.11 09:09:38 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.11 09:09:38 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.11 09:09:38 INFO  Parse release: 11.0.14
+2022.03.11 09:09:40 INFO  time: initialize in 1.78s
+2022.03.11 09:09:40 INFO  Attempting to connect to the build server...
+2022.03.11 09:09:40 INFO  skipping build import with status 'Installed'
+2022.03.11 09:09:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.11 09:09:44 INFO  Attempting to connect to the build server...
+2022.03.11 09:09:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.11 09:09:44 INFO  time: Connected to build server in 4.03s
+2022.03.11 09:09:44 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.11 09:09:45 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.11 09:09:45 INFO  time: code lens generation in 2.49s
+2022.03.11 09:09:46 INFO  time: Imported build in 0.12s
+2022.03.11 09:09:46 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.11 09:09:48 INFO  time: code lens generation in 5.2s
+2022.03.11 09:09:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.11 09:09:50 INFO  time: indexed workspace in 4.28s
+2022.03.11 09:09:50 INFO  compiling root (1 scala source)
+2022.03.11 09:09:55 INFO  time: compiled root in 4.25s
+Exception in thread "pool-6-thread-1" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.expressionType(MetalsPrinter.scala:39)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-6-thread-2" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.shortTypeString$1(MetalsPrinter.scala:50)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:78)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Mar 11, 2022 9:20:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 890
+2022.03.11 09:33:22 INFO  compiling root (1 scala source)
+2022.03.11 09:33:22 INFO  time: compiled root in 0.56s
+2022.03.11 09:34:57 INFO  compiling root (1 scala source)
+2022.03.11 09:34:57 INFO  time: compiled root in 0.38s
+2022.03.11 09:42:27 INFO  compiling root (1 scala source)
+2022.03.11 09:42:27 INFO  time: compiled root in 0.31s
+2022.03.11 09:56:22 INFO  compiling root (1 scala source)
+2022.03.11 09:56:22 INFO  time: compiled root in 0.34s
+2022.03.11 09:57:06 INFO  compiling root (1 scala source)
+2022.03.11 09:57:06 INFO  time: compiled root in 0.36s
+2022.03.11 10:06:02 INFO  compiling root (1 scala source)
+2022.03.11 10:06:02 INFO  time: compiled root in 0.11s
+2022.03.11 10:06:09 INFO  compiling root (1 scala source)
+2022.03.11 10:06:09 INFO  time: compiled root in 0.22s
+2022.03.11 10:13:04 INFO  compiling root (1 scala source)
+2022.03.11 10:13:04 INFO  time: compiled root in 0.23s
+2022.03.11 10:14:22 INFO  compiling root (1 scala source)
+2022.03.11 10:14:22 INFO  time: compiled root in 0.26s
+2022.03.11 10:16:32 INFO  compiling root (1 scala source)
+2022.03.11 10:16:32 INFO  time: compiled root in 0.17s
+2022.03.11 10:25:32 INFO  compiling root (1 scala source)
+2022.03.11 10:25:32 INFO  time: compiled root in 0.19s
+2022.03.11 10:26:10 INFO  compiling root (1 scala source)
+2022.03.11 10:26:10 INFO  time: compiled root in 0.13s
+2022.03.11 10:29:48 INFO  compiling root (1 scala source)
+2022.03.11 10:29:48 INFO  time: compiled root in 0.12s
+2022.03.11 10:43:44 INFO  compiling root (1 scala source)
+2022.03.11 10:43:44 INFO  time: compiled root in 0.14s
+2022.03.11 13:09:02 INFO  compiling root (1 scala source)
+2022.03.11 13:09:02 INFO  time: compiled root in 0.18s
+2022.03.11 13:11:58 INFO  compiling root (1 scala source)
+2022.03.11 13:11:58 INFO  time: compiled root in 0.22s
+2022.03.11 13:15:00 INFO  compiling root (1 scala source)
+2022.03.11 13:15:00 INFO  time: compiled root in 0.26s
+2022.03.11 13:16:16 INFO  compiling root (1 scala source)
+2022.03.11 13:16:16 INFO  time: compiled root in 0.2s
+2022.03.11 13:20:04 INFO  compiling root (1 scala source)
+2022.03.11 13:20:04 INFO  time: compiled root in 0.27s
+2022.03.11 13:21:28 INFO  compiling root (1 scala source)
+2022.03.11 13:21:28 INFO  time: compiled root in 0.22s
+2022.03.11 13:30:25 INFO  compiling root (1 scala source)
+2022.03.11 13:30:25 INFO  time: compiled root in 0.21s
+2022.03.11 13:32:16 INFO  compiling root (1 scala source)
+2022.03.11 13:32:16 INFO  time: compiled root in 0.19s
+2022.03.11 13:34:17 INFO  compiling root (1 scala source)
+2022.03.11 13:34:17 INFO  time: compiled root in 0.27s
+2022.03.11 13:36:31 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala:142: error: [dialect scala3] ) expected but } found
+          })
+          ^
+2022.03.11 13:36:31 INFO  compiling root (1 scala source)
+2022.03.11 13:36:31 INFO  time: compiled root in 0.13s
+2022.03.11 13:36:31 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.11 13:36:42 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.11 13:36:45 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.11 13:36:55 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.11 13:36:57 INFO  compiling root (1 scala source)
+2022.03.11 13:36:57 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.11 13:36:57 INFO  time: compiled root in 0.27s
+2022.03.11 13:40:15 INFO  compiling root (1 scala source)
+2022.03.11 13:40:15 INFO  time: compiled root in 0.2s
+2022.03.11 13:40:38 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala:155: error: [dialect scala3] ) expected but } found
+          })
+          ^
+2022.03.11 13:40:38 INFO  compiling root (1 scala source)
+2022.03.11 13:40:38 INFO  time: compiled root in 82ms
+2022.03.11 13:40:43 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala:157: error: [dialect scala3] ; expected but ) found
+    )
+    ^
+2022.03.11 13:40:43 INFO  compiling root (1 scala source)
+2022.03.11 13:40:43 INFO  time: compiled root in 66ms
+2022.03.11 13:41:03 INFO  compiling root (1 scala source)
+2022.03.11 13:41:03 INFO  time: compiled root in 0.23s
+2022.03.11 13:42:37 INFO  compiling root (1 scala source)
+2022.03.11 13:42:37 INFO  time: compiled root in 0.19s
+2022.03.11 13:42:55 INFO  compiling root (1 scala source)
+2022.03.11 13:42:55 INFO  time: compiled root in 0.2s
+2022.03.11 13:50:09 INFO  compiling root (1 scala source)
+2022.03.11 13:50:09 INFO  time: compiled root in 0.15s
+2022.03.11 14:44:22 INFO  compiling root (1 scala source)
+2022.03.11 14:44:22 INFO  time: compiled root in 0.12s
+2022.03.11 14:44:37 INFO  compiling root (1 scala source)
+2022.03.11 14:44:37 INFO  time: compiled root in 0.19s
+2022.03.11 14:47:02 INFO  compiling root (1 scala source)
+2022.03.11 14:47:02 INFO  time: compiled root in 0.11s
