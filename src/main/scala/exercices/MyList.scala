@@ -32,6 +32,9 @@ abstract class MyList[+A] {
 
     // concatenation
     def ++[B >: A](list: MyList[B]): MyList[B]
+
+    // hofs
+    def foreach(f: A => Unit): Unit
 }
 
 case object Empty extends MyList[Nothing] {
@@ -48,6 +51,9 @@ case object Empty extends MyList[Nothing] {
     def filter(predicate: Nothing => Boolean): MyList[Nothing] = Empty
 
     def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
+
+    // hofs
+    def foreach(f: Nothing => Unit): Unit = ()
 }
 
 case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
@@ -98,6 +104,10 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     def flatMap[B](transformer: A => MyList[B]): MyList[B] =
         transformer(h) ++ t.flatMap(transformer)
 
+    // hofs
+    def foreach(f: A => Unit): Unit =
+        f(h)
+        t.foreach(f)
 }
 
 // trait MyPredicate[-T] { // T => Boolean
@@ -109,6 +119,12 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
 // }
 
 object ListTest extends App {
+
+    // val list = new Cons(1, new Cons(2, new Cons(3, Empty)))
+    // println(list.tail.tail.head)
+    // println(list.add(4).head)
+    // println(list.isEmpty)
+    // println(list.toString)
 
     val listOfIntegers: MyList[Int] =
         new Cons(1, new Cons(2, new Cons(3, Empty)))
@@ -157,10 +173,5 @@ object ListTest extends App {
           .toString
     )
 
-    // val list = new Cons(1, new Cons(2, new Cons(3, Empty)))
-    // println(list.tail.tail.head)
-    // println(list.add(4).head)
-    // println(list.isEmpty)
-    // println(list.toString)
-
+    listOfIntegers.foreach(println) // x => println(x)
 }

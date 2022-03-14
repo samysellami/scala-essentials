@@ -4909,3 +4909,667 @@ WARNING: Unmatched cancel notification for request id 890
 2022.03.11 14:44:37 INFO  time: compiled root in 0.19s
 2022.03.11 14:47:02 INFO  compiling root (1 scala source)
 2022.03.11 14:47:02 INFO  time: compiled root in 0.11s
+2022.03.11 15:11:47 INFO  compiling root (1 scala source)
+2022.03.11 15:11:47 INFO  time: compiled root in 0.12s
+2022.03.11 15:13:47 INFO  compiling root (1 scala source)
+2022.03.11 15:13:47 INFO  time: compiled root in 0.1s
+2022.03.11 15:15:16 INFO  compiling root (1 scala source)
+2022.03.11 15:15:16 INFO  time: compiled root in 0.11s
+2022.03.11 15:25:08 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala:17: error: [dialect scala3] illegal start of simple expression
+}
+^
+2022.03.11 15:25:08 INFO  compiling root (1 scala source)
+2022.03.11 15:25:08 INFO  time: compiled root in 69ms
+2022.03.11 15:32:06 INFO  compiling root (1 scala source)
+2022.03.11 15:32:06 INFO  time: compiled root in 30ms
+2022.03.11 15:32:11 INFO  compiling root (1 scala source)
+2022.03.11 15:32:11 INFO  time: compiled root in 0.26s
+2022.03.11 15:33:27 INFO  compiling root (1 scala source)
+2022.03.11 15:33:27 INFO  time: compiled root in 33ms
+2022.03.11 15:33:33 INFO  compiling root (1 scala source)
+2022.03.11 15:33:33 INFO  time: compiled root in 0.18s
+2022.03.11 15:34:18 INFO  compiling root (1 scala source)
+2022.03.11 15:34:18 INFO  time: compiled root in 99ms
+2022.03.11 15:39:13 INFO  compiling root (1 scala source)
+2022.03.11 15:39:13 INFO  time: compiled root in 0.13s
+2022.03.11 18:46:53 INFO  shutting down Metals
+2022.03.11 18:46:53 INFO  Shut down connection with build server.
+2022.03.11 18:46:53 INFO  Shut down connection with build server.
+2022.03.12 14:53:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.12 14:53:40 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.12 14:53:40 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.12 14:53:40 INFO  Parse release: 11.0.14
+2022.03.12 14:53:42 INFO  time: initialize in 1.73s
+2022.03.12 14:53:43 INFO  Attempting to connect to the build server...
+2022.03.12 14:53:42 INFO  skipping build import with status 'Installed'
+2022.03.12 14:53:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.12 14:53:46 INFO  Attempting to connect to the build server...
+2022.03.12 14:53:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.12 14:53:46 INFO  time: Connected to build server in 3.48s
+2022.03.12 14:53:46 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.12 14:53:47 INFO  shutting down Metals
+2022.03.12 14:53:47 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.12 14:53:47 INFO  time: code lens generation in 2.67s
+Mar 12, 2022 2:53:47 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: The input stream was closed.
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SourceChannelImpl.endRead(SourceChannelImpl.java:241)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:259)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Mar 12, 2022 2:53:47 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: The input stream was closed.
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SourceChannelImpl.endRead(SourceChannelImpl.java:241)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:259)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@20ecd993 rejected from java.util.concurrent.ThreadPoolExecutor@4228ba54[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 121]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
+	at scala.concurrent.Future.map(Future.scala:292)
+	at scala.concurrent.Future.map$(Future.scala:292)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
+	at scala.concurrent.Future$.apply(Future.scala:659)
+	at scala.meta.internal.metals.FormattingProvider.checkIfDialectUpgradeRequired(FormattingProvider.scala:359)
+	at scala.meta.internal.metals.FormattingProvider.validateWorkspace(FormattingProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$2(MetalsLanguageServer.scala:2474)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2453)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2403)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2403)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@6eb34ec2 rejected from java.util.concurrent.ThreadPoolExecutor@4228ba54[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 121]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
+	at scala.concurrent.Future.map(Future.scala:292)
+	at scala.concurrent.Future.map$(Future.scala:292)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
+	at scala.concurrent.Future$.apply(Future.scala:659)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2405)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2403)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-1-thread-8" java.lang.ExceptionInInitializerError
+	at com.swoval.files.NioPathWatcherService.<init>(NioPathWatcherService.java:53)
+	at com.swoval.files.NioPathWatcher.<init>(NioPathWatcher.java:100)
+	at com.swoval.files.PlatformWatcher.make(PlatformWatcher.java:20)
+	at com.swoval.files.PlatformWatcher.make(PlatformWatcher.java:11)
+	at com.swoval.files.PathWatchers.get(PathWatchers.java:85)
+	at com.swoval.files.FileTreeRepositories.get(FileTreeRepositories.java:64)
+	at com.swoval.files.FileTreeRepositories.get(FileTreeRepositories.java:32)
+	at scala.meta.internal.metals.watcher.FileWatcher$.initFileTreeRepository(FileWatcher.scala:171)
+	at scala.meta.internal.metals.watcher.FileWatcher$.scala$meta$internal$metals$watcher$FileWatcher$$startWatch(FileWatcher.scala:152)
+	at scala.meta.internal.metals.watcher.FileWatcher.restart(FileWatcher.scala:60)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$5(MetalsLanguageServer.scala:2481)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2480)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2403)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2403)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.add(ApplicationShutdownHooks.java:66)
+	at java.base/java.lang.Runtime.addShutdownHook(Runtime.java:216)
+	at com.swoval.runtime.ShutdownHooks.<clinit>(ShutdownHooks.java:20)
+	... 29 more
+2022.03.12 22:06:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.12 22:06:14 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.12 22:06:14 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.12 22:06:14 INFO  Parse release: 11.0.14
+2022.03.12 22:06:16 INFO  time: initialize in 1.78s
+2022.03.12 22:06:17 INFO  Attempting to connect to the build server...
+2022.03.12 22:06:16 INFO  skipping build import with status 'Installed'
+2022.03.12 22:06:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.12 22:06:16 INFO  Attempting to connect to the build server...
+2022.03.12 22:06:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.12 22:06:17 INFO  time: Connected to build server in 0.45s
+2022.03.12 22:06:17 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.12 22:06:17 INFO  time: Imported build in 0.11s
+2022.03.12 22:06:20 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.12 22:06:20 INFO  time: indexed workspace in 2.8s
+Mar 12, 2022 10:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Mar 12, 2022 10:17:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..22]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.03.12 22:17:42 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala:25: error: [dialect scala3] illegal start of simple expression
+}
+^
+2022.03.12 22:17:42 INFO  compiling root (1 scala source)
+Mar 12, 2022 10:17:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..22]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Mar 12, 2022 10:17:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..22]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+Mar 12, 2022 10:17:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..22]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.03.12 22:17:44 INFO  time: compiled root in 2.03s
+2022.03.12 22:22:14 INFO  file:///home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala:24:60: stale bloop error: expression expected but '}' found
+    def nTimesBetter(f: Int => Int, n: Int): (Int => Int) = 
+                                                           ^
+2022.03.12 22:22:14 INFO  file:///home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala:24:60: stale bloop error: expression expected but '}' found
+    def nTimesBetter(f: Int => Int, n: Int): (Int => Int) = 
+                                                           ^
+Exception in thread "pool-6-thread-1" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:58)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.12 22:22:18 INFO  compiling root (1 scala source)
+2022.03.12 22:22:20 INFO  time: compiled root in 1.12s
+2022.03.12 22:22:57 INFO  compiling root (1 scala source)
+2022.03.12 22:22:57 INFO  time: compiled root in 0.52s
+2022.03.12 22:23:33 INFO  compiling root (1 scala source)
+2022.03.12 22:23:33 INFO  time: compiled root in 0.63s
+2022.03.12 22:23:38 INFO  compiling root (1 scala source)
+2022.03.12 22:23:38 INFO  time: compiled root in 0.38s
+2022.03.12 22:37:40 INFO  compiling root (1 scala source)
+2022.03.12 22:37:40 INFO  time: compiled root in 0.44s
+2022.03.12 22:37:53 INFO  compiling root (1 scala source)
+2022.03.12 22:37:54 INFO  time: compiled root in 1.03s
+2022.03.12 22:56:07 INFO  compiling root (1 scala source)
+2022.03.12 22:56:07 INFO  time: compiled root in 0.32s
+2022.03.12 23:02:00 INFO  compiling root (1 scala source)
+2022.03.12 23:02:00 INFO  time: compiled root in 0.42s
+2022.03.12 23:02:45 INFO  compiling root (1 scala source)
+2022.03.12 23:02:45 INFO  time: compiled root in 0.41s
+2022.03.12 23:04:23 INFO  compiling root (1 scala source)
+2022.03.12 23:04:23 INFO  time: compiled root in 0.5s
+2022.03.12 23:05:18 INFO  compiling root (1 scala source)
+2022.03.12 23:05:18 INFO  time: compiled root in 0.41s
+2022.03.12 23:10:14 ERROR scalafmt: /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 556
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:34)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.ts$1(ScalametaParser.scala:1642)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$tupleInfixType$6(ScalametaParser.scala:1658)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$tupleInfixType$1(ScalametaParser.scala:1658)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.tupleInfixType(ScalametaParser.scala:1570)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple(ScalametaParser.scala:1753)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple$(ScalametaParser.scala:1752)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixTypeOrTuple(ScalametaParser.scala:3600)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$typ$1(ScalametaParser.scala:1701)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ(ScalametaParser.scala:1698)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ$(ScalametaParser.scala:1698)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.typ(ScalametaParser.scala:3600)
+	at scala.meta.internal.parsers.ScalametaParser.typ(ScalametaParser.scala:3622)
+	at scala.meta.internal.parsers.ScalametaParser.typedOpt(ScalametaParser.scala:2257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$6(ScalametaParser.scala:4446)
+	at scala.meta.internal.parsers.ScalametaParser.fromWithinReturnType(ScalametaParser.scala:936)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4446)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4416)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4350)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4187)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4172)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5120)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5114)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5130)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5110)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4945)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4945)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4953)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4887)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4906)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4891)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4931)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4923)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4682)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4674)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4540)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at org.scalafmt.config.ScalafmtRunner.parse(ScalafmtRunner.scala:45)
+	at org.scalafmt.Scalafmt$.org$scalafmt$Scalafmt$$doFormatOne(Scalafmt.scala:148)
+	at org.scalafmt.Scalafmt$.doFormat(Scalafmt.scala:137)
+	at org.scalafmt.Scalafmt$.formatCode(Scalafmt.scala:80)
+	at org.scalafmt.Scalafmt$.format(Scalafmt.scala:60)
+	at org.scalafmt.Scalafmt.format(Scalafmt.scala)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.scalafmt.dynamic.ScalafmtReflect.$anonfun$tryFormat$1(ScalafmtReflect.scala:110)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.scalafmt.dynamic.ScalafmtReflect.tryFormat(ScalafmtReflect.scala:106)
+	at org.scalafmt.dynamic.ScalafmtReflectConfig.tryFormat(ScalafmtReflectConfig.scala:95)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.$anonfun$tryForceFormat$1(ScalafmtDynamicSession.scala:50)
+	at scala.util.Success.flatMap(Try.scala:251)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryForceFormat(ScalafmtDynamicSession.scala:50)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryFormat(ScalafmtDynamicSession.scala:37)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.format(ScalafmtDynamicSession.scala:19)
+	at org.scalafmt.dynamic.ScalafmtDynamic.format(ScalafmtDynamic.scala:44)
+	at scala.meta.internal.metals.FormattingProvider.runFormat(FormattingProvider.scala:140)
+	at scala.meta.internal.metals.FormattingProvider.format(FormattingProvider.scala:116)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$formatting$1(MetalsLanguageServer.scala:1474)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.formatting(MetalsLanguageServer.scala:1469)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.12 23:10:14 INFO  compiling root (1 scala source)
+2022.03.12 23:10:14 INFO  time: compiled root in 0.13s
+2022.03.12 23:10:43 INFO  compiling root (1 scala source)
+2022.03.12 23:10:43 INFO  time: compiled root in 0.56s
+2022.03.12 23:12:32 INFO  compiling root (1 scala source)
+2022.03.12 23:12:32 INFO  time: compiled root in 0.56s
+2022.03.12 23:14:12 INFO  compiling root (1 scala source)
+2022.03.12 23:14:12 INFO  time: compiled root in 0.14s
+2022.03.12 23:14:13 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.12 23:14:23 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.12 23:14:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.12 23:14:28 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.12 23:14:34 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.12 23:14:35 INFO  compiling root (1 scala source)
+2022.03.12 23:14:35 INFO  time: compiled root in 0.43s
+2022.03.12 23:16:38 INFO  shutting down Metals
+2022.03.12 23:16:38 INFO  Shut down connection with build server.
+2022.03.12 23:16:38 INFO  Shut down connection with build server.
+2022.03.13 13:10:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.13 13:10:38 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.13 13:26:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.13 13:26:18 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.13 13:26:18 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.13 13:26:18 INFO  Parse release: 11.0.14
+2022.03.13 13:26:20 INFO  time: initialize in 2.53s
+2022.03.13 13:26:21 INFO  Attempting to connect to the build server...
+2022.03.13 13:26:21 INFO  skipping build import with status 'Installed'
+2022.03.13 13:26:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.13 13:26:26 INFO  Attempting to connect to the build server...
+2022.03.13 13:26:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.13 13:26:26 INFO  time: Connected to build server in 5.15s
+2022.03.13 13:26:26 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.13 13:26:27 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.13 13:26:27 INFO  time: code lens generation in 3.12s
+2022.03.13 13:26:28 INFO  time: Imported build in 0.14s
+2022.03.13 13:26:29 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.13 13:26:31 INFO  time: code lens generation in 6.74s
+2022.03.13 13:26:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.13 13:26:33 INFO  time: indexed workspace in 5.62s
+2022.03.13 15:51:07 INFO  compiling root (1 scala source)
+2022.03.13 15:51:09 INFO  time: compiled root in 2.64s
+2022.03.13 21:10:08 INFO  compiling root (1 scala source)
+2022.03.13 21:10:09 WARN  Could not load snapshot text for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.13 21:10:08 INFO  time: compiled root in 0.48s
+2022.03.13 21:10:32 INFO  compiling root (1 scala source)
+2022.03.13 21:10:32 INFO  time: compiled root in 0.36s
+2022.03.13 21:13:19 INFO  compiling root (1 scala source)
+2022.03.13 21:13:19 INFO  time: compiled root in 0.35s
+2022.03.13 21:13:34 INFO  compiling root (1 scala source)
+2022.03.13 21:13:34 INFO  time: compiled root in 0.26s
+Exception in thread "pool-6-thread-1" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class Cons but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.expressionType(MetalsPrinter.scala:39)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.13 21:14:42 INFO  compiling root (1 scala source)
+2022.03.13 21:14:42 INFO  time: compiled root in 0.34s
+2022.03.13 21:26:24 INFO  compiling root (1 scala source)
+2022.03.13 21:26:24 INFO  time: compiled root in 0.23s
+2022.03.13 21:29:54 INFO  compiling root (1 scala source)
+2022.03.13 21:29:54 INFO  time: compiled root in 0.46s
+2022.03.13 21:35:33 INFO  compiling root (1 scala source)
+2022.03.13 21:35:33 INFO  time: compiled root in 0.15s
+2022.03.13 21:35:57 INFO  compiling root (1 scala source)
+2022.03.13 21:35:57 INFO  time: compiled root in 0.58s
+2022.03.13 21:38:35 INFO  compiling root (1 scala source)
+2022.03.13 21:38:35 INFO  time: compiled root in 0.4s
+2022.03.13 22:48:13 INFO  shutting down Metals
+2022.03.13 22:48:13 INFO  Shut down connection with build server.
+2022.03.13 22:48:13 INFO  Shut down connection with build server.
+2022.03.14 10:17:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.14 10:17:16 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.14 10:17:16 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.14 10:17:16 INFO  Parse release: 11.0.14
+2022.03.14 10:17:17 INFO  time: initialize in 1.53s
+2022.03.14 10:17:18 INFO  Attempting to connect to the build server...
+2022.03.14 10:17:17 INFO  skipping build import with status 'Installed'
+2022.03.14 10:17:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.14 10:17:21 INFO  Attempting to connect to the build server...
+2022.03.14 10:17:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.14 10:17:21 INFO  time: Connected to build server in 3.27s
+2022.03.14 10:17:21 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 10:17:22 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.14 10:17:22 INFO  time: code lens generation in 2.6s
+2022.03.14 10:17:23 INFO  time: Imported build in 0.11s
+2022.03.14 10:17:24 INFO  no build target found for /home/samy/Documents/dev/scala-dev/scala-essentials/src/main/scala/exercices/MyList.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.14 10:17:25 INFO  time: code lens generation in 4.98s
+2022.03.14 10:17:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 10:17:26 INFO  time: indexed workspace in 3.6s
+2022.03.14 11:08:02 INFO  shutting down Metals
+2022.03.14 11:08:02 INFO  Shut down connection with build server.
+2022.03.14 11:08:02 INFO  Shut down connection with build server.
+2022.03.14 11:21:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/lsp.trace.json or /home/samy/.cache/metals/lsp.trace.json
+2022.03.14 11:21:50 INFO  logging to file /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/metals.log
+2022.03.14 11:21:50 INFO  Started: Metals version 0.11.2 in workspace '/home/samy/Documents/dev/scala-dev/scala-essentials' for client Visual Studio Code 1.63.2.
+2022.03.14 11:21:50 INFO  Parse release: 11.0.14
+2022.03.14 11:21:51 INFO  time: initialize in 1.55s
+2022.03.14 11:21:52 INFO  Attempting to connect to the build server...
+2022.03.14 11:21:51 INFO  skipping build import with status 'Installed'
+2022.03.14 11:21:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.14 11:21:52 INFO  Attempting to connect to the build server...
+2022.03.14 11:21:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samy/Documents/dev/scala-dev/scala-essentials/project/.metals/bsp.trace.json or /home/samy/.cache/metals/bsp.trace.json
+2022.03.14 11:21:52 INFO  time: Connected to build server in 0.51s
+2022.03.14 11:21:52 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 11:21:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 11:21:55 INFO  time: indexed workspace in 2.99s
