@@ -5573,3 +5573,1261 @@ idx = 0, args = List()
 2022.03.14 11:21:52 INFO  Connected to Build server: Bloop v1.4.13
 2022.03.14 11:21:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
 2022.03.14 11:21:55 INFO  time: indexed workspace in 2.99s
+2022.03.14 15:45:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-essentials/.metals/lsp.trace.json or /home/sami/.cache/metals/lsp.trace.json
+2022.03.14 15:45:53 INFO  logging to file /home/sami/Documents/dev/scala-essentials/.metals/metals.log
+2022.03.14 15:45:53 INFO  Started: Metals version 0.11.2 in workspace '/home/sami/Documents/dev/scala-essentials' for client Visual Studio Code 1.65.2.
+2022.03.14 15:45:53 INFO  Parse release: 11.0.14
+2022.03.14 15:45:54 INFO  time: initialize in 1.58s
+2022.03.14 15:45:58 INFO  Attempting to connect to the build server...
+2022.03.14 15:45:58 ERROR Starting the bsp launcher for bloop...
+2022.03.14 15:45:58 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8201804883204478582/bsp.socket'...
+2022.03.14 15:45:58 ERROR Waiting for the bsp connection to come up...
+2022.03.14 15:45:58 ERROR error: The command bsp --protocol local --socket /tmp/bsp-launcher8201804883204478582/bsp.socket returned with an error
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sami/Documents/dev/scala-essentials/.bloop'...
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading project from '/home/sami/Documents/dev/scala-essentials/.bloop/root-test.json'
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading project from '/home/sami/Documents/dev/scala-essentials/.bloop/root.json'
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.1.1.
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Elapsed: 5.520772 ms
+2022.03.14 15:45:58 ERROR > [0m[31m[E][0m Failed to load project from /home/sami/Documents/dev/scala-essentials/.bloop/root.json
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sami/Documents/dev/scala-essentials/.bloop/root.json
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.1.1.
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:287)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:304)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:299)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:281)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:45:58 ERROR error: Trying a tcp-based connection to the server instead...
+2022.03.14 15:45:58 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 24924'...
+2022.03.14 15:45:58 ERROR Waiting for the bsp connection to come up...
+2022.03.14 15:45:58 ERROR error: The command bsp --protocol tcp --port 24924 returned with an error
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sami/Documents/dev/scala-essentials/.bloop'...
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading project from '/home/sami/Documents/dev/scala-essentials/.bloop/root.json'
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Loading project from '/home/sami/Documents/dev/scala-essentials/.bloop/root-test.json'
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.1.1.
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Elapsed: 10.989385 ms
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[31m[E][0m Failed to load project from /home/sami/Documents/dev/scala-essentials/.bloop/root-test.json
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sami/Documents/dev/scala-essentials/.bloop/root-test.json[0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > 
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:287)
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist![0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > [0m[33m[W][0m Scala instance jar /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar doesn't exist!
+2022.03.14 15:45:58 ERROR > 
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.1.1.
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.1/scala3-compiler_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.1/scala3-interfaces-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.1/scala3-tasty-inspector_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.1/scaladoc_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.1/tasty-core_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2022.03.14 15:45:58 ERROR > [0m[32m[D][0m   => /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:304)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:299)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:281)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.03.14 15:45:58 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:45:58 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.03.14 15:45:58 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:45:59 WARN  no build target for: /home/sami/Documents/dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala
+2022.03.14 15:46:01 INFO  no build target found for /home/sami/Documents/dev/scala-essentials/src/main/scala/lectures/part3fp/HofsAndCurries.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.14 15:46:02 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14900749941846678701/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.14 15:46:03 INFO  [info] welcome to sbt 1.6.2 (Ubuntu Java 11.0.14)
+2022.03.14 15:46:03 INFO  time: code lens generation in 3.63s
+2022.03.14 15:46:05 INFO  [info] loading settings for project scala-essentials-build-build from metals.sbt ...
+2022.03.14 15:46:05 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-essentials/project/project
+2022.03.14 15:46:07 INFO  [info] loading settings for project scala-essentials-build from metals.sbt ...
+2022.03.14 15:46:07 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-essentials/project
+2022.03.14 15:46:09 INFO  [warn] sbt-bloop-1.4.13-sources.jar no longer exists at /home/samy/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.13/sbt-bloop-1.4.13-sources.jar
+2022.03.14 15:46:09 INFO  [success] Generated .bloop/scala-essentials-build.json
+2022.03.14 15:46:09 INFO  [success] Total time: 1 s, completed Mar 14, 2022, 3:46:09 PM
+2022.03.14 15:46:10 INFO  [info] loading settings for project root from build.sbt ...
+2022.03.14 15:46:10 INFO  [info] set current project to scala-essentials (in build file:/home/sami/Documents/dev/scala-essentials/)
+2022.03.14 15:46:13 INFO  [success] Generated .bloop/root.json
+2022.03.14 15:46:13 INFO  [success] Generated .bloop/root-test.json
+2022.03.14 15:46:13 INFO  [success] Total time: 3 s, completed Mar 14, 2022, 3:46:13 PM
+2022.03.14 15:46:13 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.03.14 15:46:13 INFO  Attempting to connect to the build server...
+2022.03.14 15:46:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-essentials/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 15:46:13 INFO  Attempting to connect to the build server...
+2022.03.14 15:46:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-essentials/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 15:46:13 INFO  time: Connected to build server in 0.26s
+2022.03.14 15:46:13 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 15:46:15 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 15:46:16 INFO  time: indexed workspace in 2.72s
+Exception in thread "pool-7-thread-1" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:240)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$1(MetalsPrinter.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:134)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:138)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:141)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:71)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:50:21 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 4m 7.377s)
+2022.03.14 15:50:21 INFO  compiling root (26 scala sources)
+2022.03.14 15:50:21 INFO  compiling root (26 scala sources)
+2022.03.14 15:50:25 INFO  time: compiled root in 4.39s
+Exception in thread "pool-7-thread-2" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.shortTypeString$1(MetalsPrinter.scala:50)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:78)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-7-thread-3" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.shortTypeString$1(MetalsPrinter.scala:50)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:78)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-7-thread-4" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.expressionType(MetalsPrinter.scala:39)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 15:57:04 INFO  compiling root (1 scala source)
+2022.03.14 15:57:04 INFO  time: compiled root in 0.2s
+2022.03.14 15:58:34 INFO  compiling root (1 scala source)
+2022.03.14 15:58:34 INFO  time: compiled root in 0.22s
+2022.03.14 15:58:34 INFO  compiling root (1 scala source)
+2022.03.14 15:58:34 INFO  time: compiled root in 0.22s
+2022.03.14 15:58:34 INFO  compiling root (1 scala source)
+2022.03.14 15:58:34 INFO  time: compiled root in 0.11s
+2022.03.14 16:06:10 INFO  compiling root (1 scala source)
+2022.03.14 16:06:10 INFO  time: compiled root in 0.12s
+2022.03.14 16:06:29 INFO  compiling root (1 scala source)
+2022.03.14 16:06:29 INFO  time: compiled root in 0.12s
+2022.03.14 16:06:35 INFO  compiling root (1 scala source)
+2022.03.14 16:06:35 INFO  time: compiled root in 0.1s
+2022.03.14 16:10:17 INFO  compiling root (1 scala source)
+2022.03.14 16:10:17 INFO  time: compiled root in 0.53s
+2022.03.14 16:12:09 INFO  compiling root (1 scala source)
+2022.03.14 16:12:09 INFO  time: compiled root in 0.13s
+2022.03.14 16:12:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:36 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:45 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:12:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:39 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:13:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:26 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:36 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:14:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:15:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:08 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:08 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:18 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:39 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:16:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:26 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:26 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:17:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:06 INFO  compiling root (1 scala source)
+2022.03.14 16:18:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 16:18:06 INFO  time: compiled root in 0.39s
+Exception in thread "pool-7-thread-5" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class MyList but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.expressionType(MetalsPrinter.scala:39)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-7-thread-6" dotty.tools.dotc.core.TypeError: bad parameter reference A at typer
+the parameter is type A in class Cons but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2318)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2232)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2250)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2205)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2193)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1364)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1387)
+	at dotty.tools.dotc.core.Definitions.isTupleNType(Definitions.scala:1476)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1$$anonfun$1(RefinedPrinter.scala:150)
+	at dotty.tools.dotc.printing.Printer.atPrec(Printer.scala:43)
+	at dotty.tools.dotc.printing.Printer.changePrec(Printer.scala:72)
+	at dotty.tools.dotc.printing.RefinedPrinter.toTextFunction$1(RefinedPrinter.scala:160)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:222)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:40)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:45)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:240)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$1(MetalsPrinter.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:134)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:138)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:141)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:71)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:197)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.03.14 16:54:12 INFO  compiling root (1 scala source)
+2022.03.14 16:54:12 INFO  time: compiled root in 0.36s
+2022.03.14 17:34:41 INFO  compiling root (1 scala source)
+2022.03.14 17:34:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:41 INFO  time: compiled root in 0.17s
+2022.03.14 17:34:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:34:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:08 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:08 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:35:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:36:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:08 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:22 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:26 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:40 INFO  compiling root (1 scala source)
+2022.03.14 17:37:40 INFO  time: compiled root in 0.16s
+2022.03.14 17:37:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:37:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:11 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:47 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:51 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:38:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:21 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:25 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:27 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:28 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:36 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:45 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:49 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:50 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:52 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:53 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:39:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:04 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:19 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:23 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:24 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:26 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:29 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:31 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:34 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:36 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:36 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:38 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:40 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:47 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:48 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:57 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:58 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:40:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:00 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:01 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:02 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:03 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:05 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:06 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:07 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:10 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:12 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:37 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:42 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:43 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:44 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:54 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:55 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:41:56 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:09 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:13 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:14 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:15 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:16 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:17 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:20 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:30 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:32 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:35 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:47 INFO  compiling root (1 scala source)
+2022.03.14 17:42:46 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:42:47 INFO  time: compiled root in 0.63s
+2022.03.14 17:44:50 INFO  compiling root (1 scala source)
+2022.03.14 17:44:50 INFO  time: compiled root in 0.57s
+2022.03.14 17:45:41 INFO  compiling root (1 scala source)
+2022.03.14 17:45:41 INFO  time: compiled root in 0.57s
+2022.03.14 17:46:32 INFO  compiling root (1 scala source)
+2022.03.14 17:46:32 INFO  time: compiled root in 0.56s
+Mar 14, 2022 5:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4707
+2022.03.14 17:54:41 INFO  compiling root (1 scala source)
+2022.03.14 17:54:41 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-essentials/src/main/scala/exercices/MyList.scala
+2022.03.14 17:54:41 INFO  time: compiled root in 0.59s
