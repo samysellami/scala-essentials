@@ -131,6 +131,13 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
             throw new RuntimeException("Lists do not have the same length")
         else new Cons(zip(h, list.head), t.zipWith(list.tail, zip))
 
+    /*
+        [1, 2, 3].fold(0)(+) =
+        [2, 3].fold(1)(+) =
+        [3].fold(3)(+) =
+        [].fold(6)(+) = 6
+     */
+
     def fold[B](start: B)(operator: (B, A) => B): B =
         t.fold(operator(start, h))(operator)
 
@@ -204,4 +211,13 @@ object ListTest extends App {
     println(
       anotherListOfIntegers.zipWith[String, String](listOfStrings, _ + "-" + _)
     )
+    println(listOfIntegers.fold(0)(_ + _))
+
+    // for comprehensions
+    val combinations = for {
+        n <- listOfIntegers
+        string <- listOfStrings
+    } yield n + "-" + string
+    println(combinations)
+
 }

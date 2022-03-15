@@ -63,4 +63,32 @@ object HofsAndCurries extends App {
         3. compose(f, g) => x => f(g(x))
            composeReverse(f, g) => x => g(f(x))
      */
+
+    def toCurry(f: (Int, Int) => Int): (Int => Int => Int) =
+        x => y => f(x, y)
+    def fromCurry(f: (Int => Int => Int)): (Int, Int) => Int =
+        (x, y) => f(x)(y)
+
+    // functionX
+    def compose[A, B, C](f: A => B, g: C => A): C => B =
+        x => f(g(x))
+    def composeReverse[A, B, C](f: A => B, g: B => C): A => C =
+        x => g(f(x))
+
+    // testing the functions
+    def superAdder2: (Int => Int => Int) = toCurry(_ + _)
+    def add4 = superAdder2(4)
+    println(add4(17))
+
+    def simpleAdder = fromCurry(superAdder)
+    println(simpleAdder(4, 17))
+
+    val add2 = (x: Int) => x + 2
+    val times3 = (x: Int) => x * 3
+
+    val composed = compose(add2, times3)
+    val ordered = composeReverse(add2, times3)
+
+    println(composed(4))
+    println(ordered(4))
 }
