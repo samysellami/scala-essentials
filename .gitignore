@@ -56,7 +56,7 @@
 /build-sbt/
 local.sbt
 jitwatch.out
-
+project/
 # Used by the restarr/restarrFull commands as target directories
 /build-restarr/
 /target-restarr/
